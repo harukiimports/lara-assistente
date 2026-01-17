@@ -27,7 +27,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md">
         {/* Logo */}
         <div className="text-center mb-6 sm:mb-8">
-          <Link href="/" className="inline-flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4 hover:opacity-80 transition-opacity">
+          <Link href="/planos" className="inline-flex items-center gap-2 sm:gap-3 mb-3 sm:mb-4 hover:opacity-80 transition-opacity">
             <Sparkles className="w-8 h-8 sm:w-10 sm:h-10 text-yellow-400" />
             <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent">
               Lara Assistente
@@ -119,7 +119,7 @@ export default function LoginPage() {
             <div className="text-center">
               <p className="text-gray-400 text-xs sm:text-sm">
                 Não tem uma conta?{' '}
-                <Link href="/" className="text-yellow-400 hover:text-yellow-300 font-semibold transition-colors">
+                <Link href="/planos" className="text-yellow-400 hover:text-yellow-300 font-semibold transition-colors">
                   Escolha seu plano
                 </Link>
               </p>
